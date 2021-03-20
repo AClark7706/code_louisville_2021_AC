@@ -1,0 +1,104 @@
+
+body {
+    
+}
+
+header {
+    width: 100%;
+    background-color: lightsteelblue;
+    color: black;
+    padding: 10px 15px;
+    border: 12px solid darkgray;
+    border-bottom-color: silver;
+    margin: 0 0 2rem 0; 
+    box-sizing: border-box;   
+}
+h1 {
+    font-size:35px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    margin: 0 3rem 3rem;
+    left: 60px;
+}
+.container{
+    /*display: flex;*/
+    margin: 0 auto;
+    overflow: auto;
+    width: 100%;
+}
+#Mimi{
+   float: left;
+   margin: 0 1rem 1rem 0;
+   width:600px;
+}
+#Mimi img{
+    width:100%;
+}
+p {
+    font-size:20px;
+    text-align: center;
+}
+/*Ham menu*/
+@media(max-width: 768px){
+    .mainMenu{
+        display: none;
+    }
+
+    .mainMenu.toggleCls{
+        display: block;
+    }
+}
+@media(min-width: 769px){
+    .mainMenu{
+        display:  block;
+    }
+    .hamIcon{
+        display: none;
+    }
+}
+/*Ham menu*/
+aside{
+    text-align:center;
+}
+h3{
+    font-size: 30px;
+}
+@media(min-width: 901px){
+    ul {
+    list-style-type:none;
+    column-count: 4;
+    font-size: 20px;
+    margin-bottom: 60px;
+    text-decoration-line: none;
+    color: black;
+    text-align: center;
+    }
+}
+@media(max-width: 900px){
+    ul {
+    list-style-type:none;
+    column-count: 2;
+    font-size: 20px;
+    margin-bottom: 60px;
+    text-decoration-line: none;
+    color: black;
+    text-align: center;
+    }
+}
+li:nth-child(odd) {
+    margin-top: 10px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li:nth-child(odd) a {
+    color:blue;
+}
+#Stories h3{
+    text-align: center;
+}
