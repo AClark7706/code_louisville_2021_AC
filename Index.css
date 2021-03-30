@@ -25,15 +25,13 @@ h2{
     overflow: auto;
     width: 100%;
 }
-#Mimi{
-   float: left;
-   margin: 0 1rem 1rem 0;
-   width:600px;
-   border: 10px, solid, black; 
-}
+
 #Mimi img{
-    width:100%;
+    width: 100%;
+    max-width: 650px;
     border: 10px, solid, black; 
+    float: left;
+    margin: 0 1rem 1rem 0;
 }
 p {
     font-size: 24px;
@@ -46,6 +44,9 @@ p {
 }
 .mainMenu.toggleCls{
     display: block;
+    text-align: center;
+    text-decoration: underline;
+    list-style-type: none;
 }
 @media(min-width: 700px){
     .mainMenu{
