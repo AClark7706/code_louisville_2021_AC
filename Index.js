@@ -1,3 +1,4 @@
+/*Hamburger Menu*/
 function toggleClass(){
     let menu = document.querySelector(".mainMenu");
     menu.classList.toggle("toggleCls")
@@ -6,9 +7,8 @@ function toggleClass(){
 
     /*hamburger.addEventListener("click", toggleClass)*/
 }
-
+/*Hamburger menu*/
 /*comment section*/
-
 window.onload=function(){
     document.getElementById("submit").addEventListener("click",addComment)
 }
@@ -24,5 +24,5 @@ function addComment(){
     post.appendChild(text);
     document.querySelector("#comment-section").appendChild(post);
 }
-
+/*comment section*/
 
