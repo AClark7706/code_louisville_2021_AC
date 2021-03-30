@@ -78,6 +78,8 @@ h3{
     margin:20px;
     column-count: 1;
     font-family: 'Dancing Script', cursive;
+    list-style-type: none;
+    text-align:center;
 }
 @media(min-width: 700px){
     #list {
