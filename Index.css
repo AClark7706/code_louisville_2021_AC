@@ -11,15 +11,16 @@ header {
     margin: 0 0 2rem 0; 
     box-sizing: border-box;   
 }
+#Musings{
+    text-decoration: underline;
+}
 h1 {
     font: size 35px;
-    text-align: center;
-    text-decoration:underline; 
+    text-align: center; 
 }
 h2{
     font: size 25px;
     text-align: center;
-    text-decoration:underline;
 }
 .container{
     display: flex;
@@ -28,13 +29,17 @@ h2{
     overflow: auto;
     width: 100%;
 }
-
+#welcome{
+    flex:1 1 0;
+}
 #Mimi{
     max-width: 600px;
+    flex:1 1 0;
 }
 
 #Mimi img{
     width: 100%;
+    border:10px solid darkgrey;
 }
 p {
     font-size: 24px;
@@ -48,31 +53,32 @@ p {
 .mainMenu.toggleCls{
     display: block;
     text-align: center;
-    text-decoration: underline;
     list-style-type: none;
+    text-decoration:none;
 }
 @media(min-width: 700px){
     .mainMenu{
         display:  block;
         text-align: center;
-        text-decoration: underline;
         list-style-type: none;
+        text-decoration:underline;
     }
     .hamIcon{
         display: none;
-    }
-    .container{
-        flex-direction: row;
     }
 }
 @media(min-width: 1000px){
     .mainMenu{
         display: block;
         column-count:2;
+        text-decoration:underline;
     }
 
     .mainMenu.toggleCls{
         display: none;
+    }
+    .container{
+        flex-direction: row;
     }
 }
 
