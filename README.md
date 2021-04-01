@@ -1,7 +1,7 @@
 # code_louisville_2021_AC
 Repository for my Code Louisville Project
 
-Hello! Welcome to my project, "Mimi's Memories and Musings". I created this as a tribute o my grandmother who recently wrote many stories and gifted them to our family. They are not all added, but if you would like to read one, feel free to take a look at "What a View".
+Hello! Welcome to my project, "Mimi's Memories and Musings". I created this as a tribute o my grandmother who recently wrote many stories and gifted them to our family. They are not all added, but if you would like to read one, feel free to take a look at "What a View". Thank you for taking the time to review!
 
 As for the requirements, please see below.
 
@@ -13,6 +13,8 @@ CSS back-up Requirement 3: Nth-Child- I used the nth:child the target every othe
 
 JS Requirement: Comment section- At the bottom of each page in my website, there is a section where the reader can add comments. There are two inputs, one for their name, which will be entered with a colon and a space, then their comment following immediatly after.
 
-Media Query 1: There is a media query on the main menu in the header that allows the spacing of the menu to match the size of the screen. For page min 1000px, it will be in 2 columns, for page min 700 px, it will be in 1 column, and anything less then that will be a hamburger menu.
+*Note on the Media Queries. I origionally read the requirements as there were two sets of media queries required, not two total. So I ended up putting in 2 sets, 4 media queries total, and they are explained below. Once I got clrification on the requirements, I decided to leave them alone as they work as they currently stand.
+
+Media Query 1: There is a media query on the main menu in the header that allows the spacing of the menu to match the size of the screen. For page min 1000px, it will be in 2 columns, for page min 700 px, it will be in 1 column, and anything less then that will be a hamburger menu. Additionally, at 10000 px, the flexbox will transition from 2 rows, to 2 columns to provide a responsive layout.
 
 Media Query 2: There is also a media query on the list of story names on each page. For page min 800px, it will be in 4 columns, for page-min 600px, it will be in 2 columns, and anything less will be in 1.
