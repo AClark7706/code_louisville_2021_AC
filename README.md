@@ -5,6 +5,8 @@ Hello! Welcome to my project, "Mimi's Memories and Musings". I created this as a
 
 As for the requirements, please see below.
 
+Page Layout: The base page to begin on is Index.html. Then the rest may be navigated as the user would like. The way my page is laid out is first the header, with links to the home page, as well a link to "Feet to the Fire" homepage, whise is relevant to the website material. Next is the body, which is a picture, then text, which switches between rows and columns depending on the screen width. Next is the list of stories this website was made for, and they can be seen and selected on any page in this website. Following that is a comment section where the reader can leave their name and thoughts if they choose.
+
 CSS Requirement 1: Hamburger Menu- I created a hamburger menu that will be displayed on mobile screens. When the screen size is lower than 700 px, there will be a hambugr menu for the main menu in the header.
 
 CSS Requirement 2: Flex-Box- I used flex-box to style the body of each page. It is a responsive layout that will format the story and picture from one column to two based on the users screen size.
