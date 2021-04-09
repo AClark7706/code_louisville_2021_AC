@@ -41,6 +41,115 @@ h2{
     width: 100%;
     border:10px solid darkgrey;
 }
+#carona{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#carona img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#Date{
+    max-width: 600px;
+    min-width:600px;
+    flex:1 1 0;
+}
+
+#Date img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#done{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#done img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#Jan{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#Jan img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#lonely{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#lonely img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#matches{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#matches img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#night{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#night img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#parents{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#parents img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#Peter{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#Peter img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#scouting{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#scouting img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#taught{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#taught img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
+#Whataview{
+    max-width: 600px;
+    flex:1 1 0;
+}
+
+#Whataview img{
+    width: 100%;
+    border:10px solid darkgrey;
+}
 p {
     font-size: 24px;
     margin: 0 3rem 3rem;
